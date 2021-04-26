@@ -1,0 +1,228 @@
+/* Main */
+.section{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.row-my{
+	width: 1110px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container-my{
+	width: 1110px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.row-my .container-my{
+	display: flex;
+	
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+h1{
+	text-align: right;
+	margin: 80px 120px 0 0;
+	font-weight: 400;
+	font-size: 52px;
+	line-height: 80px;
+	letter-spacing: 1px;
+	color: #265757;
+}
+
+/* h2 */
+.my{
+	font-size: 35px;
+	margin-bottom: 35px;
+	text-decoration: underline;
+	font-weight: normal;
+	color: #265757;
+}
+
+h3{
+	font-size: 25px;
+	text-decoration: underline;
+	font-weight: normal;
+	color: #4FC7C7;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h4{
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-weight: normal;
+	color: #265757;
+}
+
+.text{
+  position: relative;
+  align-self: center;
+
+
+  font-weight: 300;
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.row-my .container-my .text{
+	margin: 0px;
+	text-align: justify;
+	font-size: 17px;
+}
+
+.right-board{
+	text-align: right; 
+}
+
+.center{
+	text-align: center;
+}
+
+.blue{
+	background-color: rgba(180, 255, 255, 0.5);
+}
+
+
+
+/* Women-Intro*/
+.women-intro {
+  background-image: url(../images/women/back_women_intro.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.women-intro .line{
+	content: "";
+	display: block;
+
+	height: 5px;
+	margin: 0 auto;
+
+	background-color:#265757;
+}
+
+.image{
+	width: 400px;
+	margin: 0px 25px 50px 25px;
+}
+
+.image blockquote{
+	width: 400px;
+	margin-top: 25px;
+	vertical-align: center;
+	text-align: center;
+}
+
+.transparent{
+	content: "";
+	display: block;
+
+	height: 80px;
+	margin: 20px 0 0 205px;
+
+	background-color: rgba(137, 243, 243, 0.5);
+}
+
+
+
+.container-my .transparent-back{
+	content: "";
+	display: block;
+
+	padding: 25px 0;
+
+	background-color: rgba(137, 243, 243, 0.5);
+
+	width: 450px;
+	height: 100%;
+}
+
+.container-my .text img{
+	margin:30px 0;
+	max-width:100%; 
+}
+
+
+
+
+
+/*Section*/
+.sidebar{
+	width: 450px;
+	max-height: 100%;
+}
+
+.container-my .sidebar h4{
+	text-align: center;
+}
+
+.list{
+	padding: 0px 50px;
+	width: 400;
+}
+
+.sidebar ul li{
+	list-style-type: disc;
+	padding:10px;
+	text-align: justify;
+}
+
+/* Quote section*/
+.quote{
+	background-color: rgba(79, 199, 199, 0.5);
+
+}
+
+.quote p{
+	color: #fff;
+	font-size: 30px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.quote-text{
+	width: 900px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+/* Left or right */
+.left{
+	margin-left: 60px;
+}
+
+.right{
+	margin-right: 60px;
+}
+
+/* Color section */
+.element{
+	margin: 50px 0;
+	max-width: 48%;
+	background-color: rgba(137, 243, 243, 0.5);
+	padding: 50px;
+}
+
+/* Photos row */
+.photos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin: 35px 0;
+}
+
+
+
+
