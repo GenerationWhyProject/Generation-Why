@@ -1,4 +1,7 @@
 /* Main */
+.logo img{
+	margin:0px;
+}
 .section{
   width: 100%;
   height: 100%;
@@ -25,7 +28,20 @@
 	justify-content: space-between;
 }
 
-h1{
+.special{
+	flex-wrap: wrap;
+}
+
+
+img{
+	margin-bottom: 30px;
+}
+
+p{
+	margin-bottom: 30px;
+}
+
+h1, .psev_h1{
 	text-align: right;
 	margin: 80px 120px 0 0;
 	font-weight: 400;
@@ -53,7 +69,7 @@ h3{
 	text-align: center;
 }
 
-h4{
+h4, .psev_h4{
 	font-size: 20px;
 	margin-bottom: 20px;
 	text-decoration: underline;
@@ -62,21 +78,20 @@ h4{
 }
 
 .text{
-  position: relative;
-  align-self: center;
+	text-align: justify;
+    position: relative;
+    align-self: center;
 
 
-  font-weight: 300;
-  font-size: 17px;
-  color: #7a7a7a;
-  line-height: 30px;
-  letter-spacing: 0.25px;
-  margin-bottom: 0;
-  position: relative;
+    font-weight: 300;
+    font-size: 17px;
+    color: #7a7a7a;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    position: relative;
 }
 
 .row-my .container-my .text{
-	margin: 0px;
 	text-align: justify;
 	font-size: 17px;
 }
@@ -91,8 +106,8 @@ h4{
 
 .blue{
 	background-color: rgba(180, 255, 255, 0.5);
+	padding: 25px 0;
 }
-
 
 
 /* Women-Intro*/
@@ -102,7 +117,8 @@ h4{
   background-position: left top;
 }
 
-.women-intro .line{
+
+ .line{
 	content: "";
 	display: block;
 
@@ -114,7 +130,7 @@ h4{
 
 .image{
 	width: 400px;
-	margin: 0px 25px 50px 25px;
+	margin: 0px 25px 0px 25px;
 }
 
 .image blockquote{
@@ -149,7 +165,6 @@ h4{
 }
 
 .container-my .text img{
-	margin:30px 0;
 	max-width:100%; 
 }
 
@@ -208,10 +223,11 @@ h4{
 
 /* Color section */
 .element{
-	margin: 50px 0;
-	max-width: 48%;
+	margin: 25px;
+	max-width: auto;
 	background-color: rgba(137, 243, 243, 0.5);
-	padding: 50px;
+	padding: 25px;
+
 }
 
 /* Photos row */
@@ -224,5 +240,68 @@ h4{
 }
 
 
+/*Div link changes*/
+.nothing{
+	content: "";
+	height: 50px;
+	width: 100%;
+}
 
 
+
+a .element{
+	position: relative;
+	max-width: 320px;
+
+
+}
+
+.element__text{
+	margin-bottom: 15px;
+}
+
+.element__text p{
+	margin: 5px;
+
+}
+
+.text_appearing{
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 100%;
+	color: white;
+	text-align: center;
+	opacity: 0;
+
+	position: absolute;
+	top:50%;
+	left: 0;
+	z-index: 2;
+	transform: translate3d(0, -50%, 0);
+
+	z-index: 2;
+
+}
+
+a .element:hover{
+	background: linear-gradient(to bottom, #347A7A, #89F3F3);
+	
+
+	transform: translate3d(-10px, -10px, 0);
+	transition: transform .1s ease-in;
+}
+
+a .element:hover img{
+	opacity: 0.15;
+}
+
+a .element:hover h3, 
+a .element:hover p{
+	opacity: 0.2;
+}
+
+a .element:hover .text_appearing{
+	opacity: 1;
+
+	transition: opacity .1s linear;
+}
