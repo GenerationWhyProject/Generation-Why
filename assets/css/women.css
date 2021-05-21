@@ -288,7 +288,7 @@ a .element:hover{
 	
 
 	transform: translate3d(-10px, -10px, 0);
-	transition: transform .1s ease-in;
+	transition: transform .2s ease-in;
 }
 
 a .element:hover img{
@@ -303,5 +303,5 @@ a .element:hover p{
 a .element:hover .text_appearing{
 	opacity: 1;
 
-	transition: opacity .1s linear;
+	transition: opacity .2s linear;
 }
